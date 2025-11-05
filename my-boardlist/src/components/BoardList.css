@@ -1,0 +1,30 @@
+/* 전체 화면을 꽉 채우는 영역 */
+.board-wrapper {
+  display: flex;
+  justify-content: center; /* 가로 중앙 */
+  align-items: center;     /* 세로 중앙 */
+  height: 100vh;           /* 뷰포트 높이 전체 */
+  width: 100vw;            /* 뷰포트 너비 전체 */
+  background-color: #f8f9fa; /* 은은한 배경색 */
+}
+
+/* 실제 게시판 카드 영역 */
+.board-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+/* 테이블 중앙정렬 */
+.board-table {
+  margin: 0 auto;
+}
+
+/* 페이지네이션 버튼 스타일 보정 */
+.pagination .page-link {
+  border-radius: 6px;
+}
